@@ -1,0 +1,33 @@
+body{
+    background: #8ca2a1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+table{
+    width: 50vw;
+    background: rgb(106, 111, 255);
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th , td {
+    padding: 10px;
+    border: 3px solid #000000;
+}
+
+tbody tr:nth-child(odd) {
+    background: #2ff1ff;
+}
+
+p{
+    background: #a0e6ff;
+    position: relative;
+    left: 767px;
+    top: 129px;
+    
+}
